@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background: aquamarine;
+  background:#212121;
 }
 
 header::after {
@@ -45,21 +45,21 @@ nav li {
 }
 
 nav a {
-  color: #444;
+  color: #EBE9E9;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
 }
 
 nav a:hover {
-  color: #000;
+  color: #2A71F5;
 }
 
 nav a::before {
   content: '';
   display: block;
   height: 5px;
-  background-color: #444;
+  background-color: #1BE937;
 
   position: absolute;
   top: 0;
@@ -70,4 +70,12 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
+}
+
+
+button a {
+  color: #FAF5F5;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
 }
